@@ -14,14 +14,16 @@ import './css/style.css';
 // import './js/mixitup.min.js';
 // import './js/owl.carousel.min.js';
 // import './js/main.js';
+// import './js/jquery.slicknav.js';
+// import './js/main.js';
 
-import Layout from './pages/layout';
+import Index from './pages/index';
 
 function App() {
   return (
   <>
     <Routes>
-      <Route path='/' element={<Layout/>}/>
+      <Route path='/' element={<Index/>}/>
     </Routes>
     
   </>

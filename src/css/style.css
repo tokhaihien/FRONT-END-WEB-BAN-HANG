@@ -562,7 +562,7 @@ ol {
 -----------------------*/
 
 .hero {
-	padding-bottom: 50px;
+	padding-bottom: 10px;
 }
 
 .hero.hero-normal {
@@ -949,8 +949,9 @@ ol {
 -----------------------*/
 
 .latest-product {
-	padding-top: 80px;
-	padding-bottom: 0;
+	padding-top: 0;
+	margin-top: 0;
+	padding-bottom: 53px;
 }
 
 .latest-product__text h4 {
