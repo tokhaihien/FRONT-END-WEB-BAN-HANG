@@ -18,12 +18,14 @@ import './css/style.css';
 // import './js/main.js';
 
 import Index from './pages/index';
+import ProductPage from './pages/product';
 
 function App() {
   return (
   <>
     <Routes>
       <Route path='/' element={<Index/>}/>
+      <Route path='/san-pham' element={<ProductPage/>}/>
     </Routes>
     
   </>

@@ -57,7 +57,8 @@ function Header() {
                         <div class="col-lg-8">
                             <nav class="header__menu">
                                 <ul>
-                                    <li class="active"><a href="./index.html">Trang chủ</a></li>
+                                    {/* <li class="active"><a href="/">Trang chủ</a></li> */}
+                                    <li><a href="/">Trang chủ</a></li>
                                     <li><a href="./shop-grid.html">Về chúng tôi</a></li>
                                     {/* <li><a href="#">Pages</a>
                                         <ul class="header__menu__dropdown">
@@ -67,7 +68,7 @@ function Header() {
                                             <li><a href="./blog-details.html">Blog Details</a></li>
                                         </ul>
                                     </li> */}
-                                    <li><a href="./blog.html">Sản phẩm</a></li>
+                                    <li><a href="./san-pham">Sản phẩm</a></li>
                                     <li><a href="./contact.html">Tin tức</a></li>
                                     <li><a href="./contact.html">Liên hệ</a></li>
                                 </ul>
